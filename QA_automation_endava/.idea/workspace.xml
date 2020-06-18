@@ -20,6 +20,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="JavaVariableFindUsagesOptions.isSearchForTextOccurrences" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/cucumber/features/zap" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -37,7 +38,78 @@
       <recent name="$PROJECT_DIR$/target" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Cucumber java.Feature: WishlistFunctionality">
+    <configuration name="Feature: WishlistFunctionality" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/cucumber/features/zap/WishlistFunctionality.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="QA_automation" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: WishlistFunctionality" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Add a product from WishList to Cart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/cucumber/features/zap/WishlistFunctionality.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="QA_automation" />
+      <option name="NAME_FILTER" value="^Add a product from WishList to Cart$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Add a product from WishList to Cart$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Add a product from WishList to Cart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Logo presence on OrangeHRM home Page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/cucumber/features/zap/WishlistFunctionality.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="QA_automation" />
+      <option name="NAME_FILTER" value="^Logo presence on OrangeHRM home Page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Logo presence on OrangeHRM home Page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Logo presence on OrangeHRM home Page" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Remove a product from WishList" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/cucumber/features/zap/WishlistFunctionality.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="QA_automation" />
+      <option name="NAME_FILTER" value="^Remove a product from WishList$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Remove a product from WishList$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Remove a product from WishList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="QA_automation" />
       <option name="VM_PARAMETERS" />
@@ -85,6 +157,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber java.Feature: WishlistFunctionality" />
+        <item itemvalue="Cucumber java.Scenario: Logo presence on OrangeHRM home Page" />
+        <item itemvalue="Cucumber java.Scenario: Remove a product from WishList" />
+        <item itemvalue="Cucumber java.Scenario: Add a product from WishList to Cart" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -112,6 +192,22 @@
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state x="867" y="317" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.23.1792.1026@0.23.1792.1026" timestamp="1592178263597" />
+    <state width="1647" height="252" key="GridCell.Tab.0.bottom" timestamp="1592434921113">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state width="1647" height="252" key="GridCell.Tab.0.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1592434921113" />
+    <state width="1647" height="252" key="GridCell.Tab.0.center" timestamp="1592434921112">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state width="1647" height="252" key="GridCell.Tab.0.center/0.23.1792.1026@0.23.1792.1026" timestamp="1592434921112" />
+    <state width="1647" height="252" key="GridCell.Tab.0.left" timestamp="1592434921111">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state width="1647" height="252" key="GridCell.Tab.0.left/0.23.1792.1026@0.23.1792.1026" timestamp="1592434921111" />
+    <state width="1647" height="252" key="GridCell.Tab.0.right" timestamp="1592434921112">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state width="1647" height="252" key="GridCell.Tab.0.right/0.23.1792.1026@0.23.1792.1026" timestamp="1592434921112" />
     <state x="424" y="198" width="1210" height="837" key="SettingsEditor" timestamp="1592178281402">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
