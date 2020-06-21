@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0294d9d-54e8-4eed-9a07-f6d7a317e7aa" name="Default Changelist" comment="" />
+    <list default="true" id="c0294d9d-54e8-4eed-9a07-f6d7a317e7aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/drivers/IEDriverServer.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/drivers/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/drivers/geckodriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cucumber/features/zap/WishlistFunctionality.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cucumber/step_definitions/Zappfunctionality.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,10 +21,28 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1dKZrn8jPinoBAOuwADgLiEpqWP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,23 +51,28 @@
   <component name="PropertiesComponent">
     <property name="JavaVariableFindUsagesOptions.isSearchForTextOccurrences" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cucumber/features/zap" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/drivers" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/cucumber/features" />
-      <recent name="$PROJECT_DIR$/cucumber" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/drivers" />
       <recent name="$PROJECT_DIR$/cucumber/features/zap" />
       <recent name="$PROJECT_DIR$/target" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/drivers" />
+      <recent name="$PROJECT_DIR$/src/test/java/stepDefinitions" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/cucumber/features" />
+      <recent name="$PROJECT_DIR$/cucumber" />
+    </key>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: WishlistFunctionality">
+  <component name="RunManager" selected="JUnit.RunTest">
     <configuration name="Feature: WishlistFunctionality" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/cucumber/features/zap/WishlistFunctionality.feature" />
@@ -110,55 +144,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
+    <configuration name="RunTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_automation" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="QA_automation" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.endava.qa_automation.testRunner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.endava.qa_automation.testRunner" />
+      <option name="MAIN_CLASS_NAME" value="com.endava.qa_automation.testRunner.RunTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RunTest" />
         <item itemvalue="Cucumber java.Feature: WishlistFunctionality" />
         <item itemvalue="Cucumber java.Scenario: Logo presence on OrangeHRM home Page" />
         <item itemvalue="Cucumber java.Scenario: Remove a product from WishList" />
@@ -180,6 +183,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="446" y="216" key="#Intentions" timestamp="1592757430794">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state x="446" y="216" key="#Intentions/0.23.1792.1026@0.23.1792.1026" timestamp="1592757430794" />
     <state x="443" y="181" width="811" height="669" key="#Project_Structure" timestamp="1592412662699">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
@@ -192,30 +199,50 @@
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state x="867" y="317" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.23.1792.1026@0.23.1792.1026" timestamp="1592178263597" />
-    <state width="1647" height="252" key="GridCell.Tab.0.bottom" timestamp="1592434921113">
+    <state x="385" y="440" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1592493442793">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state width="1647" height="252" key="GridCell.Tab.0.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1592434921113" />
-    <state width="1647" height="252" key="GridCell.Tab.0.center" timestamp="1592434921112">
+    <state x="385" y="440" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1792.1026@0.23.1792.1026" timestamp="1592493442793" />
+    <state x="101" y="180" width="1489" height="742" key="DiffContextDialog" timestamp="1592756421513">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state width="1647" height="252" key="GridCell.Tab.0.center/0.23.1792.1026@0.23.1792.1026" timestamp="1592434921112" />
-    <state width="1647" height="252" key="GridCell.Tab.0.left" timestamp="1592434921111">
+    <state x="101" y="180" width="1489" height="742" key="DiffContextDialog/0.23.1792.1026@0.23.1792.1026" timestamp="1592756421513" />
+    <state width="1647" height="227" key="GridCell.Tab.0.bottom" timestamp="1592758455769">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state width="1647" height="252" key="GridCell.Tab.0.left/0.23.1792.1026@0.23.1792.1026" timestamp="1592434921111" />
-    <state width="1647" height="252" key="GridCell.Tab.0.right" timestamp="1592434921112">
+    <state width="1750" height="252" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1592492602362" />
+    <state width="1647" height="227" key="GridCell.Tab.0.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1592758455769" />
+    <state width="1647" height="227" key="GridCell.Tab.0.center" timestamp="1592758455769">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state width="1647" height="252" key="GridCell.Tab.0.right/0.23.1792.1026@0.23.1792.1026" timestamp="1592434921112" />
-    <state x="424" y="198" width="1210" height="837" key="SettingsEditor" timestamp="1592178281402">
+    <state width="1750" height="252" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1592492602360" />
+    <state width="1647" height="227" key="GridCell.Tab.0.center/0.23.1792.1026@0.23.1792.1026" timestamp="1592758455769" />
+    <state width="1647" height="227" key="GridCell.Tab.0.left" timestamp="1592758455768">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state x="424" y="198" width="1210" height="837" key="SettingsEditor/0.23.1792.1026@0.23.1792.1026" timestamp="1592178281402" />
-    <state x="624" y="361" key="com.intellij.ide.util.TipDialog" timestamp="1592304174981">
+    <state width="1750" height="252" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1592492602359" />
+    <state width="1647" height="227" key="GridCell.Tab.0.left/0.23.1792.1026@0.23.1792.1026" timestamp="1592758455768" />
+    <state width="1647" height="227" key="GridCell.Tab.0.right" timestamp="1592758455769">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state x="624" y="361" key="com.intellij.ide.util.TipDialog/0.23.1792.1026@0.23.1792.1026" timestamp="1592304174981" />
+    <state width="1750" height="252" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1592492602360" />
+    <state width="1647" height="227" key="GridCell.Tab.0.right/0.23.1792.1026@0.23.1792.1026" timestamp="1592758455769" />
+    <state x="274" y="98" width="1210" height="837" key="SettingsEditor" timestamp="1592756712177">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state x="274" y="98" width="1210" height="837" key="SettingsEditor/0.23.1792.1026@0.23.1792.1026" timestamp="1592756712177" />
+    <state x="624" y="361" key="com.intellij.ide.util.TipDialog" timestamp="1592494310466">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state x="624" y="361" key="com.intellij.ide.util.TipDialog/0.23.1792.1026@0.23.1792.1026" timestamp="1592494310466" />
+    <state x="648" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1592493126175">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state x="648" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1792.1026@0.23.1792.1026" timestamp="1592493126175" />
+    <state x="505" y="308" width="683" height="486" key="find.popup" timestamp="1592755960747">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state x="505" y="308" width="683" height="486" key="find.popup/0.23.1792.1026@0.23.1792.1026" timestamp="1592755960747" />
     <state x="546" y="226" key="new project wizard" timestamp="1592178392507">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
