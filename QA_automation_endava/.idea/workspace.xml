@@ -93,17 +93,20 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/drivers" />
+      <recent name="$PROJECT_DIR$/cucumber/features/zap" />
+      <recent name="$PROJECT_DIR$/target" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources/driver_mac" />
       <recent name="$PROJECT_DIR$/src/test/resources/drivers" />
       <recent name="$PROJECT_DIR$/src/test/java/stepDefinitions" />
       <recent name="$PROJECT_DIR$/src/test/resources" />
       <recent name="$PROJECT_DIR$/cucumber/features" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/resources/drivers" />
-      <recent name="$PROJECT_DIR$/cucumber/features/zap" />
-      <recent name="$PROJECT_DIR$/target" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.RunTest">
@@ -253,42 +256,42 @@
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state x="944" y="408" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1792.1026@0.23.1792.1026" timestamp="1593726515763" />
-    <state x="481" y="126" key="CommitChangelistDialog2" timestamp="1593387327400">
+    <state x="481" y="126" key="CommitChangelistDialog2" timestamp="1593726762912">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state x="481" y="126" key="CommitChangelistDialog2/0.23.1792.1026@0.23.1792.1026" timestamp="1593387327400" />
-    <state x="101" y="180" width="1489" height="742" key="DiffContextDialog" timestamp="1592756421513">
+    <state x="481" y="126" key="CommitChangelistDialog2/0.23.1792.1026@0.23.1792.1026" timestamp="1593726762912" />
+    <state x="101" y="180" width="1489" height="742" key="DiffContextDialog" timestamp="1593726723975">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state x="101" y="180" width="1489" height="742" key="DiffContextDialog/0.23.1792.1026@0.23.1792.1026" timestamp="1592756421513" />
-    <state width="1647" height="227" key="GridCell.Tab.0.bottom" timestamp="1593725586623">
+    <state x="101" y="180" width="1489" height="742" key="DiffContextDialog/0.23.1792.1026@0.23.1792.1026" timestamp="1593726723975" />
+    <state width="1647" height="227" key="GridCell.Tab.0.bottom" timestamp="1593726805127">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state width="1750" height="252" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1592492602362" />
-    <state width="1647" height="227" key="GridCell.Tab.0.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1593725586623" />
-    <state width="1647" height="227" key="GridCell.Tab.0.center" timestamp="1593725586622">
+    <state width="1647" height="227" key="GridCell.Tab.0.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1593726805127" />
+    <state width="1647" height="227" key="GridCell.Tab.0.center" timestamp="1593726805126">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state width="1750" height="252" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1592492602360" />
-    <state width="1647" height="227" key="GridCell.Tab.0.center/0.23.1792.1026@0.23.1792.1026" timestamp="1593725586622" />
-    <state width="1647" height="227" key="GridCell.Tab.0.left" timestamp="1593725586621">
+    <state width="1647" height="227" key="GridCell.Tab.0.center/0.23.1792.1026@0.23.1792.1026" timestamp="1593726805126" />
+    <state width="1647" height="227" key="GridCell.Tab.0.left" timestamp="1593726805126">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state width="1750" height="252" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1592492602359" />
-    <state width="1647" height="227" key="GridCell.Tab.0.left/0.23.1792.1026@0.23.1792.1026" timestamp="1593725586621" />
-    <state width="1647" height="227" key="GridCell.Tab.0.right" timestamp="1593725586622">
+    <state width="1647" height="227" key="GridCell.Tab.0.left/0.23.1792.1026@0.23.1792.1026" timestamp="1593726805126" />
+    <state width="1647" height="227" key="GridCell.Tab.0.right" timestamp="1593726805126">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state width="1750" height="252" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1592492602360" />
-    <state width="1647" height="227" key="GridCell.Tab.0.right/0.23.1792.1026@0.23.1792.1026" timestamp="1593725586622" />
+    <state width="1647" height="227" key="GridCell.Tab.0.right/0.23.1792.1026@0.23.1792.1026" timestamp="1593726805126" />
     <state x="274" y="98" width="1210" height="837" key="SettingsEditor" timestamp="1592756712177">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state x="274" y="98" width="1210" height="837" key="SettingsEditor/0.23.1792.1026@0.23.1792.1026" timestamp="1592756712177" />
-    <state x="537" y="264" key="Vcs.Push.Dialog.v2" timestamp="1593387338128">
+    <state x="537" y="264" key="Vcs.Push.Dialog.v2" timestamp="1593726791986">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state x="537" y="264" key="Vcs.Push.Dialog.v2/0.23.1792.1026@0.23.1792.1026" timestamp="1593387338128" />
+    <state x="537" y="264" key="Vcs.Push.Dialog.v2/0.23.1792.1026@0.23.1792.1026" timestamp="1593726791986" />
     <state x="624" y="361" key="com.intellij.ide.util.TipDialog" timestamp="1593385507080">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>

@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: Logo presence on OrangeHRM home Page
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 2, Skipped: 3, Time elapsed: 0.17 s <<< FAILURE! - in Logo presence on OrangeHRM home Page
+Logo presence on OrangeHRM home Page.I lounch chrome browser  Time elapsed: 0.076 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: /Applications/chromedriver
+
+Logo presence on OrangeHRM home Page  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: /Applications/chromedriver
+
