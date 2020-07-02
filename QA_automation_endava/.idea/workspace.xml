@@ -2,16 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0294d9d-54e8-4eed-9a07-f6d7a317e7aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/drivers/IEDriverServer.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/drivers/geckodriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cucumber/features/zap/WishlistFunctionality.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cucumber/step_definitions/Zappfunctionality.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/endava/qa_automation/stepDefinitions/Zappfunctionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/endava/qa_automation/browserfactory/Zappfunctionality.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/endava/qa_automation/testRunner/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/junitrunner/RunTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/driver_mac/chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/driver_mac/geckodriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/drivers/IEDriverServer.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/drivers/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/drivers/geckodriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/QA_automation_endava-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.endava.qa_automation.testRunner.RunTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.endava.qa_automation.testRunner.RunTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.endava.qa_automation.testRunner.RunTest/Command line test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.endava.qa_automation.testRunner.RunTest/Command line test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/com.endava.qa_automation.testRunner.RunTest/Command line test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/com.endava.qa_automation.testRunner.RunTest/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/com.endava.qa_automation.testRunner.RunTest/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/com.endava.qa_automation.testRunner.RunTest/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/com.endava.qa_automation.testRunner.RunTest/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/com.endava.qa_automation.testRunner.RunTest/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/com.endava.qa_automation.testRunner.RunTest/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/com.endava.qa_automation.testRunner.RunTest/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/com.endava.qa_automation.testRunner.RunTest/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/com.endava.qa_automation.testRunner.RunTest/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/com.endava.qa_automation.testRunner.RunTest/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/drivers/chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/drivers/geckodriver" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,23 +87,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/drivers" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/resources/drivers" />
-      <recent name="$PROJECT_DIR$/cucumber/features/zap" />
-      <recent name="$PROJECT_DIR$/target" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/driver_mac" />
       <recent name="$PROJECT_DIR$/src/test/resources/drivers" />
       <recent name="$PROJECT_DIR$/src/test/java/stepDefinitions" />
       <recent name="$PROJECT_DIR$/src/test/resources" />
       <recent name="$PROJECT_DIR$/cucumber/features" />
-      <recent name="$PROJECT_DIR$/cucumber" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/drivers" />
+      <recent name="$PROJECT_DIR$/cucumber/features/zap" />
+      <recent name="$PROJECT_DIR$/target" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.RunTest">
@@ -148,12 +182,12 @@
       <module name="QA_automation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.endava.qa_automation.testRunner.*" />
+          <option name="PATTERN" value="junitrunner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.endava.qa_automation.testRunner" />
-      <option name="MAIN_CLASS_NAME" value="com.endava.qa_automation.testRunner.RunTest" />
+      <option name="PACKAGE_NAME" value="junitrunner" />
+      <option name="MAIN_CLASS_NAME" value="junitrunner.RunTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -180,17 +214,29 @@
       <option name="presentableId" value="Default" />
       <updated>1592175945359</updated>
     </task>
+    <task id="LOCAL-00001" summary="add mac driver">
+      <created>1593387327775</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593387327775</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add mac driver" />
+    <option name="LAST_COMMIT_MESSAGE" value="add mac driver" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="216" key="#Intentions" timestamp="1592757430794">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state x="446" y="216" key="#Intentions/0.23.1792.1026@0.23.1792.1026" timestamp="1592757430794" />
-    <state x="443" y="181" width="811" height="669" key="#Project_Structure" timestamp="1592412662699">
+    <state x="443" y="181" width="811" height="669" key="#Project_Structure" timestamp="1593726478633">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state x="443" y="181" width="811" height="669" key="#Project_Structure/0.23.1792.1026@0.23.1792.1026" timestamp="1592412662699" />
+    <state x="443" y="181" width="811" height="669" key="#Project_Structure/0.23.1792.1026@0.23.1792.1026" timestamp="1593726478633" />
     <state x="652" y="255" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1592177836359">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
@@ -199,42 +245,54 @@
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state x="867" y="317" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.23.1792.1026@0.23.1792.1026" timestamp="1592178263597" />
-    <state x="385" y="440" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1592493442793">
+    <state x="385" y="440" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1593726513689">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state x="385" y="440" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1792.1026@0.23.1792.1026" timestamp="1592493442793" />
+    <state x="385" y="440" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1792.1026@0.23.1792.1026" timestamp="1593726513689" />
+    <state x="944" y="408" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1593726515763">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state x="944" y="408" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1792.1026@0.23.1792.1026" timestamp="1593726515763" />
+    <state x="481" y="126" key="CommitChangelistDialog2" timestamp="1593387327400">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state x="481" y="126" key="CommitChangelistDialog2/0.23.1792.1026@0.23.1792.1026" timestamp="1593387327400" />
     <state x="101" y="180" width="1489" height="742" key="DiffContextDialog" timestamp="1592756421513">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state x="101" y="180" width="1489" height="742" key="DiffContextDialog/0.23.1792.1026@0.23.1792.1026" timestamp="1592756421513" />
-    <state width="1647" height="227" key="GridCell.Tab.0.bottom" timestamp="1592758455769">
+    <state width="1647" height="227" key="GridCell.Tab.0.bottom" timestamp="1593725586623">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state width="1750" height="252" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1592492602362" />
-    <state width="1647" height="227" key="GridCell.Tab.0.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1592758455769" />
-    <state width="1647" height="227" key="GridCell.Tab.0.center" timestamp="1592758455769">
+    <state width="1647" height="227" key="GridCell.Tab.0.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1593725586623" />
+    <state width="1647" height="227" key="GridCell.Tab.0.center" timestamp="1593725586622">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state width="1750" height="252" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1592492602360" />
-    <state width="1647" height="227" key="GridCell.Tab.0.center/0.23.1792.1026@0.23.1792.1026" timestamp="1592758455769" />
-    <state width="1647" height="227" key="GridCell.Tab.0.left" timestamp="1592758455768">
+    <state width="1647" height="227" key="GridCell.Tab.0.center/0.23.1792.1026@0.23.1792.1026" timestamp="1593725586622" />
+    <state width="1647" height="227" key="GridCell.Tab.0.left" timestamp="1593725586621">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state width="1750" height="252" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1592492602359" />
-    <state width="1647" height="227" key="GridCell.Tab.0.left/0.23.1792.1026@0.23.1792.1026" timestamp="1592758455768" />
-    <state width="1647" height="227" key="GridCell.Tab.0.right" timestamp="1592758455769">
+    <state width="1647" height="227" key="GridCell.Tab.0.left/0.23.1792.1026@0.23.1792.1026" timestamp="1593725586621" />
+    <state width="1647" height="227" key="GridCell.Tab.0.right" timestamp="1593725586622">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state width="1750" height="252" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1592492602360" />
-    <state width="1647" height="227" key="GridCell.Tab.0.right/0.23.1792.1026@0.23.1792.1026" timestamp="1592758455769" />
+    <state width="1647" height="227" key="GridCell.Tab.0.right/0.23.1792.1026@0.23.1792.1026" timestamp="1593725586622" />
     <state x="274" y="98" width="1210" height="837" key="SettingsEditor" timestamp="1592756712177">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state x="274" y="98" width="1210" height="837" key="SettingsEditor/0.23.1792.1026@0.23.1792.1026" timestamp="1592756712177" />
-    <state x="624" y="361" key="com.intellij.ide.util.TipDialog" timestamp="1592494310466">
+    <state x="537" y="264" key="Vcs.Push.Dialog.v2" timestamp="1593387338128">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state x="624" y="361" key="com.intellij.ide.util.TipDialog/0.23.1792.1026@0.23.1792.1026" timestamp="1592494310466" />
+    <state x="537" y="264" key="Vcs.Push.Dialog.v2/0.23.1792.1026@0.23.1792.1026" timestamp="1593387338128" />
+    <state x="624" y="361" key="com.intellij.ide.util.TipDialog" timestamp="1593385507080">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state x="624" y="361" key="com.intellij.ide.util.TipDialog/0.23.1792.1026@0.23.1792.1026" timestamp="1593385507080" />
     <state x="648" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1592493126175">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
