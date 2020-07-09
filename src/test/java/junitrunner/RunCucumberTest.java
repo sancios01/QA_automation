@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
 //        tags = {"@Run"},
         stepNotifications = true
 )
-public class RunTest {
+public class RunCucumberTest {
 
 
 }
