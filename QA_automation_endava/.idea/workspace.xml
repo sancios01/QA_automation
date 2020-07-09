@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0294d9d-54e8-4eed-9a07-f6d7a317e7aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/browserfactory/DriverClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/browserfactory/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/logger/MainLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/HomePageLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefs/HomePageStepdef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefs/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/zap/cart.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/zap/home_page.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testdata/testdata.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/endava/qa_automation/browserfactory/Zappfunctionality.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/zap/WishlistFunctionality.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
