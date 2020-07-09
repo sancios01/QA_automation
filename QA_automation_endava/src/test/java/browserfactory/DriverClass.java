@@ -1,9 +1,6 @@
 package browserfactory;
 
-import java.util.Map;
-import java.util.concurrent.TimeUnit;
-import java.util.logging.Level;
-
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -13,23 +10,16 @@ import org.openqa.selenium.logging.LoggingPreferences;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+import java.util.Map;
+import java.util.concurrent.TimeUnit;
+import java.util.logging.Level;
 
 // TODO: Auto-generated Javadoc
-/**
- * The Class DriverClass.
- */
+
 public class DriverClass {
 
-	/** The configuration. */
 	private Map<String, String> configuration;
-	
-	/**
-	 * Gets the browser.
-	 *
-	 * @param configuration the configuration
-	 * @return the browser
-	 */
+
 	public WebDriver getBrowser(Map<String, String> configuration) {
 		this.configuration = configuration;
 		WebDriver driver  = initiliazeDriver();
@@ -38,12 +28,7 @@ public class DriverClass {
 		return driver;
 	}
 	
-	
-	/**
-	 * Initiliaze driver.
-	 *
-	 * @return the web driver
-	 */
+
 	@SuppressWarnings("deprecation")
 	private WebDriver initiliazeDriver(){
 		WebDriver webDriver = null;

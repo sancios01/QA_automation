@@ -2,50 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0294d9d-54e8-4eed-9a07-f6d7a317e7aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/browserfactory/DriverClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/browserfactory/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/logger/MainLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/HomePageLocators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefs/HomePageStepdef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefs/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/zap/cart.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/zap/home_page.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testdata/testdata.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/endava/qa_automation/stepDefinitions/Zappfunctionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/endava/qa_automation/browserfactory/Zappfunctionality.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/endava/qa_automation/testRunner/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/junitrunner/RunTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/driver_mac/chromedriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/driver_mac/geckodriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/drivers/IEDriverServer.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/drivers/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/drivers/geckodriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/QA_automation_endava-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-report" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.endava.qa_automation.testRunner.RunTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.endava.qa_automation.testRunner.RunTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.endava.qa_automation.testRunner.RunTest/Command line test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.endava.qa_automation.testRunner.RunTest/Command line test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/com.endava.qa_automation.testRunner.RunTest/Command line test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/com.endava.qa_automation.testRunner.RunTest/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/com.endava.qa_automation.testRunner.RunTest/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/com.endava.qa_automation.testRunner.RunTest/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/com.endava.qa_automation.testRunner.RunTest/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/com.endava.qa_automation.testRunner.RunTest/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/com.endava.qa_automation.testRunner.RunTest/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/com.endava.qa_automation.testRunner.RunTest/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/com.endava.qa_automation.testRunner.RunTest/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/com.endava.qa_automation.testRunner.RunTest/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/com.endava.qa_automation.testRunner.RunTest/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/drivers/chromedriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/drivers/geckodriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/endava/qa_automation/browserfactory/Zappfunctionality.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/zap/WishlistFunctionality.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,27 +56,29 @@
     <property name="JavaVariableFindUsagesOptions.isSearchForTextOccurrences" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/drivers" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/keywords" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/target" />
+      <recent name="$PROJECT_DIR$/src/test/resources/driver_mac" />
+      <recent name="$PROJECT_DIR$/src/test/resources/drivers" />
+      <recent name="$PROJECT_DIR$/src/test/java/stepDefinitions" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/resources/drivers" />
-      <recent name="$PROJECT_DIR$/cucumber/features/zap" />
-      <recent name="$PROJECT_DIR$/target" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/resources/driver_mac" />
-      <recent name="$PROJECT_DIR$/src/test/resources/drivers" />
-      <recent name="$PROJECT_DIR$/src/test/java/stepDefinitions" />
-      <recent name="$PROJECT_DIR$/src/test/resources" />
-      <recent name="$PROJECT_DIR$/cucumber/features" />
+      <recent name="$PROJECT_DIR$/src/test/java/keywords" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/test/java/stepdefs" />
+      <recent name="$PROJECT_DIR$/src/test/java/browserfactory" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.RunTest">
@@ -224,12 +196,20 @@
       <option name="project" value="LOCAL" />
       <updated>1593387327775</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add corect folder structure">
+      <created>1593726763964</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593726763964</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add mac driver" />
-    <option name="LAST_COMMIT_MESSAGE" value="add mac driver" />
+    <MESSAGE value="add corect folder structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="add corect folder structure" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="216" key="#Intentions" timestamp="1592757430794">
@@ -284,18 +264,18 @@
     </state>
     <state width="1750" height="252" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1592492602360" />
     <state width="1647" height="227" key="GridCell.Tab.0.right/0.23.1792.1026@0.23.1792.1026" timestamp="1593726805126" />
-    <state x="274" y="98" width="1210" height="837" key="SettingsEditor" timestamp="1592756712177">
+    <state x="274" y="98" width="1210" height="837" key="SettingsEditor" timestamp="1594139083715">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state x="274" y="98" width="1210" height="837" key="SettingsEditor/0.23.1792.1026@0.23.1792.1026" timestamp="1592756712177" />
+    <state x="274" y="98" width="1210" height="837" key="SettingsEditor/0.23.1792.1026@0.23.1792.1026" timestamp="1594139083715" />
     <state x="537" y="264" key="Vcs.Push.Dialog.v2" timestamp="1593726791986">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state x="537" y="264" key="Vcs.Push.Dialog.v2/0.23.1792.1026@0.23.1792.1026" timestamp="1593726791986" />
-    <state x="624" y="361" key="com.intellij.ide.util.TipDialog" timestamp="1593385507080">
+    <state x="624" y="361" key="com.intellij.ide.util.TipDialog" timestamp="1594098332432">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state x="624" y="361" key="com.intellij.ide.util.TipDialog/0.23.1792.1026@0.23.1792.1026" timestamp="1593385507080" />
+    <state x="624" y="361" key="com.intellij.ide.util.TipDialog/0.23.1792.1026@0.23.1792.1026" timestamp="1594098332432" />
     <state x="648" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1592493126175">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>

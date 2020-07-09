@@ -4,9 +4,6 @@ import org.openqa.selenium.By;
 
 public class HomePageLocators {
 
-	/**
-	 * Search Box
-	 */
 	public By searchBox =  By.cssSelector("input[id='edit-keys']");
 	
 	public By searchResultHeader =  By.cssSelector("div[id='title'] h1");
