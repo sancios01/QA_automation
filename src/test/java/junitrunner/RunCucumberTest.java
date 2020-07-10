@@ -5,12 +5,14 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/resources/features",
-        plugin = {"html:target/cucumber-report",
-                "json:target/cucumber.json"},
-        glue = {"com.endava.qa_automation.stepDefinitions"},
-//                "com.endava.qa_automation.step"},
-//        tags = {"@Run"},
+@CucumberOptions(features = "src/test/resources/featureszap",
+        plugin = {
+                "json:target/cucumber-report.json",
+                "de.monochromata.cucumber.report.PrettyReports:target/cucumber"
+        },
+        glue = {"stepdefs"},
+                "com.endava.qa_automation.step"},
+        tags = {"@Run"},
         stepNotifications = true
 )
 public class RunCucumberTest {

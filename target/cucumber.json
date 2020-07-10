@@ -3,79 +3,488 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-07-02T21:33:15.790Z",
-        "line": 21,
-        "name": "Logo presence on OrangeHRM home Page",
+        "start_timestamp": "2020-07-09T17:13:03.575Z",
+        "line": 4,
+        "name": "Verify User can see empty cart without adding any product",
         "description": "",
-        "id": "wishlish-functionality;logo-presence-on-orangehrm-home-page",
+        "id": "product-description-and-shopping-cart;verify-user-can-see-empty-cart-without-adding-any-product",
+        "after": [
+          {
+            "result": {
+              "duration": 1995200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.CloseBrowser(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "error_message": "java.lang.IllegalStateException: The driver executable does not exist: /Applications/chromedriver\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:585)\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\n\tat com.endava.qa_automation.stepDefinitions.Zappfunctionality.hromBrowser(Zappfunctionality.java:18)\n\tat ✽.I lounch chrome browser(file:///Users/asafeaniuc/OneDrive%20-%20ENDAVA/Java_cursuri_qa/QA_automation_endava/src/test/resources/features/zap/WishlistFunctionality.feature:22)\n",
-              "duration": 74832000,
-              "status": "failed"
+              "duration": 6980300,
+              "status": "passed"
             },
-            "line": 22,
-            "name": "I lounch chrome browser",
+            "line": 5,
+            "name": "User launches the application url",
             "match": {
-              "location": "com.endava.qa_automation.stepDefinitions.Zappfunctionality.hromBrowser()"
+              "location": "stepdefs.HomePageStepdef.navigateToLoginPage()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 67000,
-              "status": "skipped"
+              "status": "undefined"
             },
-            "line": 23,
-            "name": "I open zap hamepage",
-            "match": {
-              "location": "com.endava.qa_automation.stepDefinitions.Zappfunctionality.i_open_zap_hamepage()"
-            },
+            "line": 6,
+            "name": "user clicks on the shopping cart",
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 34000,
-              "status": "skipped"
+              "status": "undefined"
             },
-            "line": 24,
-            "name": "I verify that the logo present on page",
-            "match": {
-              "location": "com.endava.qa_automation.stepDefinitions.Zappfunctionality.i_verify_that_the_logo_present_on_page()"
-            },
+            "line": 7,
+            "name": "empty cart should be displayed",
+            "match": {},
             "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 27000,
-              "status": "skipped"
-            },
-            "line": 25,
-            "name": "clouse browser",
-            "match": {
-              "location": "com.endava.qa_automation.stepDefinitions.Zappfunctionality.clouse_browser()"
-            },
-            "keyword": "And "
           }
         ],
         "tags": [
           {
-            "name": "@asafeaniuc"
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-09T17:13:03.660Z",
+        "line": 9,
+        "name": "Verify User can see product description",
+        "description": "",
+        "id": "product-description-and-shopping-cart;verify-user-can-see-product-description",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.CloseBrowser(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 998100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User launches the application url",
+            "match": {
+              "location": "stepdefs.HomePageStepdef.navigateToLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "Enters the search term \"Televizoare\" in search box",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "products images should displayed after search",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "user clicks on first product image",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "user can see the product description",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-09T17:13:03.676Z",
+        "line": 16,
+        "name": "Verify User can add product to cart",
+        "description": "",
+        "id": "product-description-and-shopping-cart;verify-user-can-add-product-to-cart",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.CloseBrowser(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 997000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User launches the application url",
+            "match": {
+              "location": "stepdefs.HomePageStepdef.navigateToLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "Enters the search term \"mobile\" in search box",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "products images should displayed after search",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "user clicks on first product image",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "user clicks on add to cart button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "click on the shopping cart icon",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "product should be added into the cart",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-09T17:13:03.699Z",
+        "line": 25,
+        "name": "Verify User can delete product from the cart",
+        "description": "",
+        "id": "product-description-and-shopping-cart;verify-user-can-delete-product-from-the-cart",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.CloseBrowser(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 988500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User launches the application url",
+            "match": {
+              "location": "stepdefs.HomePageStepdef.navigateToLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27,
+            "name": "Enters the search term \"Laptopuri\" in search box",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 28,
+            "name": "products images should displayed after search",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 29,
+            "name": "user clicks on first product image",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 30,
+            "name": "user clicks on add to cart button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 31,
+            "name": "click on the shopping cart icon",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 32,
+            "name": "product should be added into the cart",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 33,
+            "name": "user click on the delete product icon",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 34,
+            "name": "product should be deleted from the cart",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
           }
         ]
       }
     ],
-    "name": "WishLish functionality",
+    "name": "Product description and Shopping Cart",
     "description": "",
-    "id": "wishlish-functionality",
+    "id": "product-description-and-shopping-cart",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/zap/WishlistFunctionality.feature",
+    "uri": "file:src/test/resources/featureszap/cart.feature",
     "tags": [
       {
-        "name": "@asafeaniuc",
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-09T17:13:03.716Z",
+        "line": 4,
+        "name": "Verify User can see products images on home page",
+        "description": "",
+        "id": "home-page-verifications;verify-user-can-see-products-images-on-home-page",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.CloseBrowser(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 997600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User launches the application url",
+            "match": {
+              "location": "stepdefs.HomePageStepdef.navigateToLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Enters the search term \"mobile\" in search box",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "products images should displayed after search",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-09T17:13:03.727Z",
+        "line": 9,
+        "name": "Verify User can see contact links in footer",
+        "description": "",
+        "id": "home-page-verifications;verify-user-can-see-contact-links-in-footer",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.CloseBrowser(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 997600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User launches the application url",
+            "match": {
+              "location": "stepdefs.HomePageStepdef.navigateToLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "facebook link should be displayed footer",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "twitter link should be displayed in footer",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "contact email should displayed in footer",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Home page verifications",
+    "description": "",
+    "id": "home-page-verifications",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/featureszap/home_page.feature",
+    "tags": [
+      {
+        "name": "@regression",
         "type": "Tag",
         "location": {
           "line": 1,

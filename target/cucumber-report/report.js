@@ -1,63 +1,361 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/zap/WishlistFunctionality.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/featureszap/cart.feature");
 formatter.feature({
-  "name": "WishLish functionality",
+  "name": "Product description and Shopping Cart",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@asafeaniuc"
+      "name": "@regression"
     }
   ]
 });
 formatter.scenario({
-  "name": "Logo presence on OrangeHRM home Page",
+  "name": "Verify User can see empty cart without adding any product",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@asafeaniuc"
+      "name": "@regression"
     }
   ]
 });
 formatter.step({
-  "name": "I lounch chrome browser",
+  "name": "User launches the application url",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "com.endava.qa_automation.stepDefinitions.Zappfunctionality.hromBrowser()"
+  "location": "stepdefs.HomePageStepdef.navigateToLoginPage()"
 });
 formatter.result({
-  "error_message": "java.lang.IllegalStateException: The driver executable does not exist: /Applications/chromedriver\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:585)\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\n\tat com.endava.qa_automation.stepDefinitions.Zappfunctionality.hromBrowser(Zappfunctionality.java:18)\n\tat ✽.I lounch chrome browser(file:///Users/asafeaniuc/OneDrive%20-%20ENDAVA/Java_cursuri_qa/QA_automation_endava/src/test/resources/features/zap/WishlistFunctionality.feature:22)\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
-  "name": "I open zap hamepage",
+  "name": "user clicks on the shopping cart",
   "keyword": "When "
 });
-formatter.match({
-  "location": "com.endava.qa_automation.stepDefinitions.Zappfunctionality.i_open_zap_hamepage()"
-});
+formatter.match({});
 formatter.result({
-  "status": "skipped"
+  "status": "undefined"
 });
 formatter.step({
-  "name": "I verify that the logo present on page",
+  "name": "empty cart should be displayed",
   "keyword": "Then "
 });
-formatter.match({
-  "location": "com.endava.qa_automation.stepDefinitions.Zappfunctionality.i_verify_that_the_logo_present_on_page()"
-});
+formatter.match({});
 formatter.result({
-  "status": "skipped"
+  "status": "undefined"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Verify User can see product description",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@regression"
+    }
+  ]
 });
 formatter.step({
-  "name": "clouse browser",
-  "keyword": "And "
+  "name": "User launches the application url",
+  "keyword": "Given "
 });
 formatter.match({
-  "location": "com.endava.qa_automation.stepDefinitions.Zappfunctionality.clouse_browser()"
+  "location": "stepdefs.HomePageStepdef.navigateToLoginPage()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
+});
+formatter.step({
+  "name": "Enters the search term \"Televizoare\" in search box",
+  "keyword": "When "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "products images should displayed after search",
+  "keyword": "Then "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "user clicks on first product image",
+  "keyword": "When "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "user can see the product description",
+  "keyword": "Then "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Verify User can add product to cart",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@regression"
+    }
+  ]
+});
+formatter.step({
+  "name": "User launches the application url",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "stepdefs.HomePageStepdef.navigateToLoginPage()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Enters the search term \"mobile\" in search box",
+  "keyword": "When "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "products images should displayed after search",
+  "keyword": "Then "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "user clicks on first product image",
+  "keyword": "When "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "user clicks on add to cart button",
+  "keyword": "And "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "click on the shopping cart icon",
+  "keyword": "And "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "product should be added into the cart",
+  "keyword": "Then "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Verify User can delete product from the cart",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@regression"
+    }
+  ]
+});
+formatter.step({
+  "name": "User launches the application url",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "stepdefs.HomePageStepdef.navigateToLoginPage()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Enters the search term \"Laptopuri\" in search box",
+  "keyword": "When "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "products images should displayed after search",
+  "keyword": "Then "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "user clicks on first product image",
+  "keyword": "When "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "user clicks on add to cart button",
+  "keyword": "When "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "click on the shopping cart icon",
+  "keyword": "And "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "product should be added into the cart",
+  "keyword": "Then "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "user click on the delete product icon",
+  "keyword": "When "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "product should be deleted from the cart",
+  "keyword": "Then "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.uri("file:src/test/resources/featureszap/home_page.feature");
+formatter.feature({
+  "name": "Home page verifications",
+  "description": "",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@regression"
+    }
+  ]
+});
+formatter.scenario({
+  "name": "Verify User can see products images on home page",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@regression"
+    }
+  ]
+});
+formatter.step({
+  "name": "User launches the application url",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "stepdefs.HomePageStepdef.navigateToLoginPage()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Enters the search term \"mobile\" in search box",
+  "keyword": "When "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "products images should displayed after search",
+  "keyword": "Then "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Verify User can see contact links in footer",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@regression"
+    }
+  ]
+});
+formatter.step({
+  "name": "User launches the application url",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "stepdefs.HomePageStepdef.navigateToLoginPage()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "facebook link should be displayed footer",
+  "keyword": "Then "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "twitter link should be displayed in footer",
+  "keyword": "Then "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "contact email should displayed in footer",
+  "keyword": "Then "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.after({
+  "status": "passed"
 });
 });

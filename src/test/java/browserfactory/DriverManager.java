@@ -16,7 +16,7 @@ public class DriverManager {
 
 	public static void setDriver(String scenarioName) throws Exception {
 		System.out.println("Runnig Scenario : "+scenarioName);
-		HashMap<String,String> configSettings = ConfigProperty ._getSessionConfig();
+		HashMap<String,String> configSettings = ConfigProperty._getSessionConfig();
 		DriverClass driverClass = new DriverClass();// main class for initliazing browser
 		threadLocal.set(driverClass.getBrowser(configSettings));
 	}
