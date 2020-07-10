@@ -10,7 +10,7 @@ import java.util.List;
 public class BasePage {
 
 	protected WebDriver driver;
-	public YamlReader testData;
+	//public YamlReader testData;
 	
 	public BasePage() {
 		this.driver = DriverManager.getDriver();

@@ -10,7 +10,7 @@ import org.junit.Assert;
 
 public class HomePageStepdef {
 
-	private HomePageKeywordshomePage;
+	private HomePageKeywords homePage;
 
 	public HomePageStepdef() {
 		this.homePage = new HomePageKeywords();
@@ -18,8 +18,8 @@ public class HomePageStepdef {
 
 	@Given("User launches the application url")
 	public void navigateToLoginPage() {
-		MainLogger.logger().info("Application url is " + homePage.testData.getData("app_url"));
-		homePage.launchApplication(homePage.testData.getData("app_url"));
+	MainLogger.logger().info("Application url is " + homePage.testData.getData("app_url"));
+	homePage.launchApplication(homePage.testData.getData("app_url"));
 	}
 
 	@When("click on the cart icon")
@@ -33,6 +33,5 @@ public class HomePageStepdef {
 		homePage.clickOnCartIcon();
 		MainLogger.logger().info("Clicks on cart icon");
 	}
-
 
 }
