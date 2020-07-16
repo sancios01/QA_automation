@@ -1,12 +1,13 @@
 package stepdefs;
 
+import org.junit.Assert;
+
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import keywords.HomePageKeywords;
 import logger.MainLogger;
-import org.junit.Assert;
 
 public class HomePageStepdef {
 
@@ -15,11 +16,16 @@ public class HomePageStepdef {
 	public HomePageStepdef() {
 		this.homePage = new HomePageKeywords();
 	}
+	
+	@When("user clicks on the shopping cart")
+	public void user_clicks_on_the_shopping_cart() {
+		homePage.clickOnCartIcon();
+	}
 
-	@Given("User launches the application url")
-	public void navigateToLoginPage() {
-	MainLogger.logger().info("Application url is " + homePage.testData.getData("app_url"));
-	homePage.launchApplication(homePage.testData.getData("app_url"));
+	@When("user clicks on first product image")
+	public void user_clicks_on_first_product_image() {
+		homePage.clickOnFirstProductImage();
+		MainLogger.logger().info("Clicks on first product image");
 	}
 
 	@When("click on the cart icon")
@@ -27,11 +33,12 @@ public class HomePageStepdef {
 		homePage.clickOnCartIcon();
 		MainLogger.logger().info("Clicks on cart icon");
 	}
-	
+
 	@And("click on the shopping cart icon")
 	public void clickcart_icon() {
 		homePage.clickOnCartIcon();
 		MainLogger.logger().info("Clicks on cart icon");
 	}
+
 
 }
