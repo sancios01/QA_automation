@@ -1,8 +1,5 @@
 package resourcereader;
 
-/**
- *
- */
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -25,32 +22,6 @@ public class ResourceLoader {
 	 */
 	private ResourceLoader() {
 	}
-
-	/**
-	 * Gets the resource url.
-	 *
-	 * @param resourceName the resource name
-	 * @return the resource url
-	 * @throws IOException Signals that an I/O exception has occurred.
-	 */
-	public static URL getResourceUrl(String resourceName) throws IOException {
-		ClassLoader classLoader = ResourceLoader.class.getClassLoader();
-
-		URL resourceUrl = null;
-
-		if (classLoader != null) {
-			resourceUrl = classLoader.getResource(resourceName);
-		}
-
-		if (resourceUrl == null) {
-			classLoader = ClassLoader.getSystemClassLoader();
-			if (classLoader != null) {
-				resourceUrl = classLoader.getResource(resourceName);
-			}
-		}
-
-		return resourceUrl;
-	}// end loadResource
 
 	/**
 	 * Load resource.

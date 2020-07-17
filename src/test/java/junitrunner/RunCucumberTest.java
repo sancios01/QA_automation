@@ -17,8 +17,11 @@ import org.junit.runner.RunWith;
         },
         features = {"src/test/resources/features"},
         glue = {"stepdefs"},
-        strict = true
+        strict = false,
+        tags ={"@regression"}
+
 )
+
 
 public class RunCucumberTest {
 

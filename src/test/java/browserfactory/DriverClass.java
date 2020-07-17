@@ -27,7 +27,12 @@ public class DriverClass {
 		driver.manage().timeouts().implicitlyWait(Long.valueOf(configuration.get("implicitwait")), TimeUnit.SECONDS);
 		return driver;
 	}
-	
+
+	public String getUrl(Map<String, String> configuration) {
+		this.configuration = configuration;
+		String urlN = configuration.get("url").toString();
+		return urlN;
+	}
 
 	@SuppressWarnings("deprecation")
 	private WebDriver initiliazeDriver(){

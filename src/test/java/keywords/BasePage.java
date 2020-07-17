@@ -12,11 +12,9 @@ import browserfactory.DriverManager;
 public class BasePage {
 
 	protected WebDriver driver;
-	public YamlReader testData;
 
 	public BasePage() {
 		this.driver = DriverManager.getDriver();
-		testData = new YamlReader();
 	}
 
 	/**
