@@ -72,6 +72,7 @@ public class HomePageKeywords extends BasePage {
 	 * @return the face book contact link
 	 */
 	public String getFaceBookContactLink() {
+
 		return getElement(homePageLocators.faceBookFooterLink).getText();
 	}
 
@@ -81,6 +82,7 @@ public class HomePageKeywords extends BasePage {
 	 * @return the twitter contact link
 	 */
 	public String getTwitterContactLink() {
+
 		return getElement(homePageLocators.twitterLink).getText();
 	}
 
@@ -90,6 +92,7 @@ public class HomePageKeywords extends BasePage {
 	 * @return the email contact text
 	 */
 	public String getEmailContactText() {
+
 		return getElement(homePageLocators.mailLink).getText();
 	}
 

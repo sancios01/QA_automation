@@ -28,10 +28,7 @@ public final class ConfigPropertyReader {
 	 */
 	
 	public static HashMap<String, String> configSettings;
-	
-	private ConfigPropertyReader() {
-	
-	}
+
 
 	/**
 	 * Get all property form config file.
@@ -56,15 +53,8 @@ public final class ConfigPropertyReader {
 	 *
 	 * @return the hash map
 	 */
-	public static HashMap<String, String> _getSessionConfig() {
+	public static HashMap<String, String> getSessionConfig() {
 		configSettings = ConfigPropertyReader.readAllPropertyVlauesFromConfigFile();
-		Properties prop = System.getProperties();
-		for (Object ob : configSettings.keySet()) {
-			if (prop.keySet().contains(ob) && !prop.get(ob).toString().isEmpty()) {
-				System.out.println("Replaced " + ob.toString() + "with " + prop.get(ob).toString());
-				configSettings.replace(ob.toString(), prop.get(ob).toString());
-			}
-		}
 		return configSettings;
 	}
 }
