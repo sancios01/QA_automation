@@ -18,7 +18,8 @@ import org.junit.runner.RunWith;
         features = {"src/test/resources/features"},
         glue = {"stepdefs"},
         strict = false,
-        tags ={"@regression"}
+        tags ={"@olea"},
+        stepNotifications = true
 
 )
 
