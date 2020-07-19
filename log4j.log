@@ -1,29 +1,6 @@
-{2020-07-17 12:13:37,355}       {INFO} (HomePageStepdef.java:28) Application url is https://www.zap.md/
-{2020-07-17 12:13:44,131}       {INFO} (OrderPageStepdef.java:39) Assertion Passed : Shopping cart is empty
-{2020-07-17 12:13:49,353}       {INFO} (HomePageStepdef.java:28) Application url is https://www.zap.md/
-{2020-07-17 12:14:05,056}       {INFO} (HomePageStepdef.java:36) Enter term Televizoare in search box
-{2020-07-17 12:14:05,081}       {INFO} (HomePageStepdef.java:44) Total product in cart 60
-{2020-07-17 12:14:06,579}       {INFO} (HomePageStepdef.java:76) Clicks on first product image
-{2020-07-17 12:14:06,621}       {INFO} (ProductDescriptionStepdef.java:20) Product Tile is Aiwa 32A500
-{2020-07-17 12:14:06,621}       {INFO} (ProductDescriptionStepdef.java:22) Assertion Passed : Product is displayed
-{2020-07-17 12:14:11,848}       {INFO} (HomePageStepdef.java:28) Application url is https://www.zap.md/
-{2020-07-17 12:14:18,508}       {INFO} (HomePageStepdef.java:36) Enter term mobile in search box
-{2020-07-17 12:14:18,546}       {INFO} (HomePageStepdef.java:44) Total product in cart 60
-{2020-07-17 12:14:24,977}       {INFO} (HomePageStepdef.java:76) Clicks on first product image
-{2020-07-17 12:14:26,290}       {INFO} (HomePageStepdef.java:88) Clicks on cart icon
-{2020-07-17 12:14:26,331}       {INFO} (OrderPageStepdef.java:21) Product title is Alcatel 2019G
-{2020-07-17 12:14:31,670}       {INFO} (HomePageStepdef.java:28) Application url is https://www.zap.md/
-{2020-07-17 12:14:39,098}       {INFO} (HomePageStepdef.java:36) Enter term Laptopuri in search box
-{2020-07-17 12:14:39,116}       {INFO} (HomePageStepdef.java:44) Total product in cart 60
-{2020-07-17 12:14:40,477}       {INFO} (HomePageStepdef.java:76) Clicks on first product image
-{2020-07-17 12:14:42,086}       {INFO} (HomePageStepdef.java:88) Clicks on cart icon
-{2020-07-17 12:14:42,121}       {INFO} (OrderPageStepdef.java:21) Product title is ASUS VivoBook 14 X412UA
-{2020-07-17 12:14:42,198}       {INFO} (OrderPageStepdef.java:27) Click on delete product
-{2020-07-17 12:14:42,368}       {INFO} (OrderPageStepdef.java:33) Assertion Passed : Shopping cart is empty
-{2020-07-17 12:14:47,732}       {INFO} (HomePageStepdef.java:28) Application url is https://www.zap.md/
-{2020-07-17 12:14:54,555}       {INFO} (HomePageStepdef.java:36) Enter term mobile in search box
-{2020-07-17 12:14:54,583}       {INFO} (HomePageStepdef.java:44) Total product in cart 60
-{2020-07-17 12:14:59,500}       {INFO} (HomePageStepdef.java:28) Application url is https://www.zap.md/
-{2020-07-17 12:15:02,615}       {INFO} (HomePageStepdef.java:57) Facebook Page URL is  facebook
-{2020-07-17 12:15:02,659}       {INFO} (HomePageStepdef.java:64) Twitter Page URL is  twitter
-{2020-07-17 12:15:02,697}       {INFO} (HomePageStepdef.java:50) Contact Email address is info@zap.md
+{2020-07-19 21:15:14,410}       {INFO} (HomePageStepdef.java:28) Application url is https://www.zap.md/
+{2020-07-19 21:15:20,120}       {INFO} (HowToCommandStepdef.java:32) After click on 'cum comand' the user is redirected to the info page
+{2020-07-19 21:15:22,123}       {INFO} (HowToCommandStepdef.java:87) User clicks on home button
+{2020-07-19 21:15:22,127}       {INFO} (HowToCommandStepdef.java:97) url din property:https://www.zap.md/
+{2020-07-19 21:15:22,127}       {INFO} (HowToCommandStepdef.java:98) url curent:https://www.zap.md/
+{2020-07-19 21:15:22,128}       {INFO} (HowToCommandStepdef.java:101) After click on homeIcon the user is redirected to landing page

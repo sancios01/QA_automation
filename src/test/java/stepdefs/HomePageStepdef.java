@@ -22,7 +22,7 @@ public class HomePageStepdef {
 	}
 
 	@Given("User launches the application url")
-	public void navigateToLoginPage() {
+	public void navigateToLandingPage() {
 		HashMap<String,String> configSettings = ConfigPropertyReader.getSessionConfig();
 		DriverClass driverClass = new DriverClass();// main class for initliazing browser
 		MainLogger.logger().info("Application url is "+ driverClass.getUrl(configSettings) );
@@ -45,21 +45,21 @@ public class HomePageStepdef {
 	}
 
 	@Then("contact email should displayed in footer")
-	public void contact_email_should_displayed_in_footer() {
+	public void contactEmailShouldBeDisplayedInFooter() {
 		String emailText = homePage.getEmailContactText();
 		MainLogger.logger().info("Contact Email address is " + emailText);
 		Assert.assertEquals(emailText, "info@zap.md");
 	}
 
 	@Then("facebook link should be displayed footer")
-	public void facebook_link_should_be_displayed_footer() {
+	public void facebookLinkShouldBeDisplayedFooter() {
 		String fbUrl = homePage.getFaceBookContactLink();
 		MainLogger.logger().info("Facebook Page URL is " + fbUrl);
 		Assert.assertTrue("Assertion Failed : Facebook link is nt there", fbUrl.contains("facebook"));
 	}
 
 	@Then("twitter link should be displayed in footer")
-	public void twitter_link_should_be_displayed_in_footer() {
+	public void twitterLinkShouldBeDisplayedInFooter() {
 		String twitterUrl = homePage.getTwitterContactLink();
 		MainLogger.logger().info("Twitter Page URL is " + twitterUrl);
 		Assert.assertTrue("Assertion Failed : Facebook link is nt there", twitterUrl.contains("twitter"));
