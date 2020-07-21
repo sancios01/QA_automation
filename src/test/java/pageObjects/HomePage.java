@@ -1,8 +1,8 @@
-package pageobjects;
+package pageObjects;
 
 import org.openqa.selenium.By;
 
-public class HomePageLocators {
+public class HomePage {
 
 	public By searchBox =  By.cssSelector("input[id='edit-keys']");
 	

@@ -1,4 +1,4 @@
-package browserfactory;
+package browserFactory;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
@@ -14,7 +14,7 @@ import java.util.Map;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 
-// TODO: Auto-generated Javadoc
+
 
 public class DriverClass {
 

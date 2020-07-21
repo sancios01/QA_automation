@@ -1,4 +1,4 @@
-package resourcereader;
+package resourceReader;
 
 import java.io.File;
 import java.io.IOException;
@@ -7,7 +7,6 @@ import java.util.Map.Entry;
 import java.util.Properties;
 
 
-// TODO: Auto-generated Javadoc
 
 /**
  * This is the utility class for data read write.

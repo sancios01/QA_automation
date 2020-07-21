@@ -1,24 +1,24 @@
-package stepdefs;
+package stepDefs;
 
-import browserfactory.DriverClass;
+import browserFactory.DriverClass;
 import org.junit.Assert;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import keywords.HomePageKeywords;
+import actions.HomePageActions;
 import logger.MainLogger;
-import resourcereader.ConfigPropertyReader;
+import resourceReader.ConfigPropertyReader;
 
 import java.util.HashMap;
 
 public class HomePageStepdef {
 
-	private HomePageKeywords homePage;
+	private HomePageActions homePage;
 
 	public HomePageStepdef() {
-		this.homePage = new HomePageKeywords();
+		this.homePage = new HomePageActions();
 	}
 
 	@Given("User launches the application url")
@@ -30,7 +30,7 @@ public class HomePageStepdef {
 	}
 
 	@When("Enters the search term {string} in search box")
-	public void enters_the_search_term_in_search_box(String string) {
+	public void entersTheSearchTermInSearchBox(String string) {
 		homePage.enterTextInSearchBox(string);
 		homePage.getSearchResultHeaderResult();
 		MainLogger.logger().info("Enter term "+string+" in search box");
@@ -66,24 +66,24 @@ public class HomePageStepdef {
 	}
 
 	@When("user clicks on the shopping cart")
-	public void user_clicks_on_the_shopping_cart() {
+	public void userClicksOnTheShoppingCart() {
 		homePage.clickOnCartIcon();
 	}
 
 	@When("user clicks on first product image")
-	public void user_clicks_on_first_product_image() {
+	public void userClicksOnFirstProductImage() {
 		homePage.clickOnFirstProductImage();
 		MainLogger.logger().info("Clicks on first product image");
 	}
 
 	@When("click on the cart icon")
-	public void click_on_the_cart_icon() {
+	public void clickOnTheCartIcon() {
 		homePage.clickOnCartIcon();
 		MainLogger.logger().info("Clicks on cart icon");
 	}
 
 	@And("click on the shopping cart icon")
-	public void clickcart_icon() {
+	public void clickcartIcon() {
 		homePage.clickOnCartIcon();
 		MainLogger.logger().info("Clicks on cart icon");
 	}

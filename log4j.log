@@ -1,6 +1,0 @@
-{2020-07-19 21:15:14,410}       {INFO} (HomePageStepdef.java:28) Application url is https://www.zap.md/
-{2020-07-19 21:15:20,120}       {INFO} (HowToCommandStepdef.java:32) After click on 'cum comand' the user is redirected to the info page
-{2020-07-19 21:15:22,123}       {INFO} (HowToCommandStepdef.java:87) User clicks on home button
-{2020-07-19 21:15:22,127}       {INFO} (HowToCommandStepdef.java:97) url din property:https://www.zap.md/
-{2020-07-19 21:15:22,127}       {INFO} (HowToCommandStepdef.java:98) url curent:https://www.zap.md/
-{2020-07-19 21:15:22,128}       {INFO} (HowToCommandStepdef.java:101) After click on homeIcon the user is redirected to landing page

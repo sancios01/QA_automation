@@ -1,24 +1,20 @@
-package keywords;
+package actions;
 
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import pageobjects.ProductDescriptionPageLocators;
+import pageObjects.ProductDescriptionPage;
 
-// TODO: Auto-generated Javadoc
 
-/**
- * The Class ProductDescriptionPageKeywords.
- */
-public class ProductDescriptionPageKeywords extends BasePage {
+public class ProductDescriptionPageActions extends BasePage {
 
 	/** The product description page locators. */
-	private ProductDescriptionPageLocators productDescriptionPageLocators;
+	private ProductDescriptionPage productDescriptionPageLocators;
 	
 	/**
 	 * Instantiates a new product description page keywords.
 	 */
-	public ProductDescriptionPageKeywords() {
-		productDescriptionPageLocators = new ProductDescriptionPageLocators();
+	public ProductDescriptionPageActions() {
+		productDescriptionPageLocators = new ProductDescriptionPage();
 	}
 	
 	/**

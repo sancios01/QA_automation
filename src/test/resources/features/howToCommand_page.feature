@@ -1,8 +1,9 @@
-
+@Olga
 Feature: howToCommand page verifications
+	Background: User launches the application url
+		Given User launches the application url
 
 Scenario: Verify User can navigate to howtoCommand page and change languages
-  	Given User launches the application url
 	When User clicks on the howtoCommand? icon
 	Then User is redirected to the howtoCommand page
 	Then the header of displayed page is "Cum comand"
@@ -14,7 +15,6 @@ Scenario: Verify User can navigate to howtoCommand page and change languages
 	Then the header of displayed page is "Cum comand"
 
 Scenario: Verify user can navigate to landing page from 'howtoCommand' page
-	Given User launches the application url
 	When User clicks on the howtoCommand? icon
 	Then User is redirected to the howtoCommand page
 	When User clicks on home logo

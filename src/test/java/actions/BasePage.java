@@ -1,4 +1,4 @@
-package keywords;
+package actions;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import browserfactory.DriverManager;
+import browserFactory.DriverManager;
 
 public class BasePage {
 

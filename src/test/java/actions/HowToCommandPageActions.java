@@ -1,22 +1,16 @@
-package keywords;
+package actions;
 
-import pageobjects.HowToCommandPageLocators;
+import pageObjects.HowToCommandPage;
 
-// TODO: Auto-generated Javadoc
 
-/**
- * The Class ProductDescriptionPageKeywords.
- */
-public class HowToCommandPageKeywords extends BasePage {
+public class HowToCommandPageActions extends BasePage {
 
 	/** The product description page locators. */
-	private HowToCommandPageLocators howToCommandPageLocators ;
+	private HowToCommandPage howToCommandPageLocators ;
 
-	/**
-	 * Instantiates a new product description page keywords.
-	 */
-	public HowToCommandPageKeywords() {
-		howToCommandPageLocators = new HowToCommandPageLocators();
+
+	public HowToCommandPageActions() {
+		howToCommandPageLocators = new HowToCommandPage();
 	}
 	
 
