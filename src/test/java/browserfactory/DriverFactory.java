@@ -17,11 +17,14 @@ import java.util.logging.Level;
 
 public class DriverFactory {
 
+	private Map<String, String> configuration;
+
 	public static WebDriver getDriver(Map<String, String> configuration) {
 		WebDriver driver = initiliazeDriver(configuration.get("browser"), configuration.get("browserversion"));
 		driver.manage().timeouts().implicitlyWait(Long.valueOf(configuration.get("implicitwait")), TimeUnit.SECONDS);
 		return driver;
 	}
+
 	
 	private static WebDriver initiliazeDriver(String browser, String browserVersion){
 		if("chrome".contains(browser.toLowerCase()))
@@ -65,4 +68,10 @@ public class DriverFactory {
 		return new FirefoxDriver(desiredCapabilities);
 	}
 
+
+	public String getUrl(Map<String, String> configuration) {
+		this.configuration = configuration;
+		String urlN = configuration.get("url").toString();
+		return urlN;
+	}
 }

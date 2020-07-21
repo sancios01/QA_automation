@@ -1,6 +1,7 @@
 package keywords;
 
-import pageObjects.HowToCommandPage;
+
+import pageobjects.HowToCommandPage;
 
 public class HowToCommandPageActions extends BasePage {
 

@@ -1,5 +1,6 @@
 package stepdefs;
 
+import browserfactory.DriverFactory;
 import browserfactory.DriverManager;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -85,14 +86,14 @@ public class HowToCommandStepdef {
 	@When("User clicks on home logo")
 	public void userClicksOnHomeLogo() {
 		howToCommandPageActions.clickOnHomeButtom();
-		MainLogger.log("User clicks on home button");
+		MainLogger.log("User clicks on home button", this.getClass());
 	}
 
 
 	@Then("User is redirected to the home page")
 	public void userIsRedirectedToTheHomePage() {
 		HashMap<String,String> configSettings = ConfigPropertyReader.getSessionConfig();
-		DriverClass driverClass = new DriverClass();
+		DriverFactory driverClass = new DriverFactory();
 
 		String currentUrl = DriverManager.getDriver().getCurrentUrl();
 
