@@ -1,27 +1,27 @@
-package stepdefs;
+package stepDefs;
 
-import browserfactory.DriverClass;
-import browserfactory.DriverManager;
+import browserFactory.DriverClass;
+import browserFactory.DriverManager;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import keywords.HowToCommandPageKeywords;
+import actions.HowToCommandPageActions;
 import logger.MainLogger;
 import org.junit.Assert;
-import resourcereader.ConfigPropertyReader;
+import resourceReader.ConfigPropertyReader;
 
 import java.util.HashMap;
 
 public class HowToCommandStepdef {
 
-	private HowToCommandPageKeywords howToCommandPageKeywords;
+	private HowToCommandPageActions howToCommandPageActions;
 
     public HowToCommandStepdef() {
-        this.howToCommandPageKeywords = new HowToCommandPageKeywords();
+        this.howToCommandPageActions = new HowToCommandPageActions();
     }
 
 	@When("User clicks on the howtoCommand? icon")
 	public void userClicksOnHowtoCommandIcon() {
-		howToCommandPageKeywords.clickOnInfoButton();
+		howToCommandPageActions.clickOnInfoButton();
 	}
 
 	@Then("User is redirected to the howtoCommand page")
@@ -38,7 +38,7 @@ public class HowToCommandStepdef {
 
 	@Then("the header of displayed page is {string}")
 	public void headerOfDisplayedPageIsCumComand(String string) {
-		String pageHeader = howToCommandPageKeywords.getInfoPageHeader();
+		String pageHeader = howToCommandPageActions.getInfoPageHeader();
 		Assert.assertEquals(string, pageHeader);
 		MainLogger.logger().info("Correct header page is displayed: "+ string);
 	}
@@ -46,7 +46,7 @@ public class HowToCommandStepdef {
 
 	@Then("on the top of Cum_comang page is displayed the button changing the language")
 	public void cumComandPageContainsChangingLanguageButtonOnTheTopOfPage() {
-    	boolean TopLangBtn = howToCommandPageKeywords.getTopLanguageBtn();
+    	boolean TopLangBtn = howToCommandPageActions.getTopLanguageBtn();
     	if (TopLangBtn)
 		{MainLogger.logger().info("Language button on the top of page is displayed");}
     	else
@@ -58,7 +58,7 @@ public class HowToCommandStepdef {
 
 	@Then("on the bottom of Cum_comang page is displayed the button changing the language")
 	public void cumComandPageContainsChangingLanguageButtonOnTheBottomOfPage() {
-		boolean BottomLangBtn = howToCommandPageKeywords.getBottomLanguageBtn();
+		boolean BottomLangBtn = howToCommandPageActions.getBottomLanguageBtn();
 		if (BottomLangBtn)
 		{MainLogger.logger().info("Language button on the bottom of page is displayed");}
 		else
@@ -70,20 +70,20 @@ public class HowToCommandStepdef {
 
 	@When("User clicks on changing language button from the top of page")
 	public void userClicksOnChangingLanguageButtonFromTheTopOfPage() {
-		howToCommandPageKeywords.clickOnTopLanguageBtn();
+		howToCommandPageActions.clickOnTopLanguageBtn();
 		MainLogger.logger().info("By click on the changing language button on the top of page, the language was changed");
 	}
 
 	@When("User clicks on changing language button from the bottom of page")
 	public void userClicksOnChangingLanguageButtonFromTheBottomOfPage() {
-		howToCommandPageKeywords.clickOnBottomLanguageBtn();
+		howToCommandPageActions.clickOnBottomLanguageBtn();
 		MainLogger.logger().info("By click on the changing language button on the bottom of page, the language was changed");
 	}
 
 
 	@When("User clicks on home logo")
 	public void userClicksOnHomeLogo() {
-		howToCommandPageKeywords.clickOnHomeButtom();
+		howToCommandPageActions.clickOnHomeButtom();
 		MainLogger.logger().info("User clicks on home button");
 	}
 

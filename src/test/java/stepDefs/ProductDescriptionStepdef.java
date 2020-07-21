@@ -1,21 +1,21 @@
-package stepdefs;
+package stepDefs;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import keywords.ProductDescriptionPageKeywords;
+import actions.ProductDescriptionPageActions;
 import logger.MainLogger;
 import org.junit.Assert;
 
 public class ProductDescriptionStepdef {
 	
-	private ProductDescriptionPageKeywords productDescriptionPageKeywords;
+	private ProductDescriptionPageActions productDescriptionPageKeywords;
 
     public ProductDescriptionStepdef() {
-        this.productDescriptionPageKeywords = new ProductDescriptionPageKeywords();
+        this.productDescriptionPageKeywords = new ProductDescriptionPageActions();
     }
 
 	@Then("user can see the product description")
-	public void user_can_see_the_product_description() {
+	public void userCanSeeTheProductDescription() {
 		String productTitle = productDescriptionPageKeywords.getProductTile();
 		MainLogger.logger().info("Product Tile is "+productTitle);
 		Assert.assertTrue(!productTitle.isEmpty());
@@ -23,7 +23,7 @@ public class ProductDescriptionStepdef {
 	}
 
 	@When("user clicks on add to cart button")
-	public void user_clicks_on_add_to_cart_button() {
+	public void userClicksOnAddToCartButton() {
 		productDescriptionPageKeywords.clickOnAddToCartButton();
 	}
 	

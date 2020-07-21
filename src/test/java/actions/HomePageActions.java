@@ -1,25 +1,23 @@
-package keywords;
+package actions;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import pageobjects.HomePageLocators;
+import pageObjects.HomePage;
 
-// TODO: Auto-generated Javadoc
+
 /**
  * The Class HomePageKeywords.
  */
-public class HomePageKeywords extends BasePage {
+public class HomePageActions extends BasePage {
 
 	/** The home page locators. */
-	private HomePageLocators homePageLocators;
+	private HomePage homePageLocators;
 
-	/**
-	 * Instantiates a new home page keywords.
-	 */
-	public HomePageKeywords() {
-		homePageLocators = new HomePageLocators();
+
+	public HomePageActions() {
+		homePageLocators = new HomePage();
 	}
 
 	/**

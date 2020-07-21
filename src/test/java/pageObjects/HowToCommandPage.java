@@ -1,8 +1,8 @@
-package pageobjects;
+package pageObjects;
 
 import org.openqa.selenium.By;
 
-public class HowToCommandPageLocators {
+public class HowToCommandPage {
 
 	public By btnInfo =  By.cssSelector("#top-bar-content a[href*='cum-comand']");
 

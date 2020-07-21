@@ -1,27 +1,21 @@
 /*
  * 
  */
-package keywords;
+package actions;
 
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import pageobjects.OrderPageLocators;
+import pageObjects.OrderPage;
 
-// TODO: Auto-generated Javadoc
 
-/**
- * The Class OrderPageKeywords.
- */
-public class OrderPageKeywords extends BasePage {
+public class OrderPageActions extends BasePage {
 
-	/** The order page locators. */
-	private OrderPageLocators orderPageLocators;
+
+	private OrderPage orderPageLocators;
 	
-	/**
-	 * Instantiates a new order page keywords.
-	 */
-	public OrderPageKeywords() {
-		orderPageLocators = new OrderPageLocators();
+
+	public OrderPageActions() {
+		orderPageLocators = new OrderPage();
 	}
 	
 	/**

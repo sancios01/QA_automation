@@ -1,7 +1,7 @@
-package browserfactory;
+package browserFactory;
 
 import org.openqa.selenium.WebDriver;
-import resourcereader.ConfigPropertyReader;
+import resourceReader.ConfigPropertyReader;
 
 import java.util.HashMap;
 
