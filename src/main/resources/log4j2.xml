@@ -1,21 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Configuration>
+<Configuration status="warn">
+	<Properties>
+		<Property name="basePath">logsS</Property>
+	</Properties>
+
 	<Appenders>
+		<RollingFile name="fileLogger"
+					 fileName="${basePath}/app-info1.log"
+					 filePattern="${basePath}/app-info-%d{yyyy-MM-dd}.log">
+			<PatternLayout>
+				<pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n</pattern>
+			</PatternLayout>
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1" modulate="true" />
+			</Policies>
+		</RollingFile>
+
 		<Console name="console" target="SYSTEM_OUT">
-			<PatternLayout
-					pattern="%highlight{%-1level}{FATAL=bg_red, ERROR=red, WARN=yellow, INFO=green} (%F:%L)
-      %msg%n%throwable"/>
+			<PatternLayout   pattern="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n" />
 		</Console>
-
-		<File name="FILEOUT" fileName="logger.log" append="true" >
-			<PatternLayout pattern="{%date{DEFAULT}} %msg%n%throwable" />
-		</File>
 	</Appenders>
-
 	<Loggers>
-		<Root level="debug" additivity="false">
-			<AppenderRef ref="FILEOUT" level="debug" />
-			<AppenderRef ref="console" level="debug" />
+		<Logger name="stepdefs" level="trace" additivity="true">
+			<appender-ref ref="fileLogger" level="trace" />
+		</Logger>
+		<Root level="trace" additivity="false">
+			<appender-ref ref="console" />
 		</Root>
 	</Loggers>
 </Configuration>

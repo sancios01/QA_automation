@@ -1,4 +1,4 @@
-package junitRunner;
+package junitrunner;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -9,16 +9,12 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {
                 "json:target/cucumber-report.json",
-                "de.monochromata.cucumber.report.PrettyReports:target/cucumber"
+                 "de.monochromata.cucumber.report.PrettyReports:target/cucumber"
         },
-        features = {"src/test/resources/features"},
-        glue = {"stepDefs"},
-        strict = false,
-        tags ={""},
-        stepNotifications = true
-
+		 features = {"src/test/resources/features"}, 
+        glue = {"stepdefs"},
+        strict = true
 )
-
 
 public class RunCucumberTest {
 

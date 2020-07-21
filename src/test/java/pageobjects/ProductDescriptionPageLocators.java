@@ -1,8 +1,8 @@
-package pageObjects;
+package pageobjects;
 
 import org.openqa.selenium.By;
 
-public class ProductDescriptionPage {
+public class ProductDescriptionPageLocators {
 
 	public By btnAddToCart =  By.cssSelector("[class=\"add-to-cart-text\"]");
 	
