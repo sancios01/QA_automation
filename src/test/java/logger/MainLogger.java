@@ -3,30 +3,18 @@ package logger;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-// TODO: Auto-generated Javadoc
-
 public class MainLogger {
 
+    private static Logger fileLogger;
 
-    private Logger log;
-
-// Instantiates a new main logger.
-
-    public MainLogger(@SuppressWarnings("rawtypes") Class claz) {
-        log = LogManager.getLogger(claz);
+    public static void log(String logMsg, Class c) {
+        logFile(logMsg, c);
     }
 
-
-     // Gets the logger.
-
-    public Logger getLogger() {
-        return log;
+    private static void logFile(String logMsg, Class c){
+        if(fileLogger == null) {
+            fileLogger = LogManager.getLogger(c);
+        }
+        fileLogger.info(logMsg);
     }
-
-
-    public static Logger logger() {
-        Logger log = LogManager.getLogger("console");
-        return log;
-    }
-
 }

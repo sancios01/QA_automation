@@ -4,11 +4,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
-/**
- * Feature tag repesents the feature file path
- * de.monochromata.cucumber.report.PrettyReports:target/cucumbe -- this is for reporting.
- *
- */
+
 @RunWith(Cucumber.class)
 @CucumberOptions(
         plugin = {
@@ -17,12 +13,8 @@ import org.junit.runner.RunWith;
         },
         features = {"src/test/resources/features"},
         glue = {"stepdefs"},
-        strict = false,
-        tags ={"@olea"},
-        stepNotifications = true
-
+        strict = true
 )
-
 
 public class RunCucumberTest {
 

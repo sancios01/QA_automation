@@ -1,14 +1,11 @@
 package browserfactory;
 
 import org.openqa.selenium.WebDriver;
+
 import resourcereader.ConfigPropertyReader;
 
-import java.util.HashMap;
-
 public class DriverManager {
-	
 
-	/** The Constant threadLocal. */
 	private static final ThreadLocal<WebDriver> threadLocal = new ThreadLocal<WebDriver>();
 
 	public static WebDriver getDriver() {
@@ -16,16 +13,15 @@ public class DriverManager {
 	}
 
 	public static void setDriver(String scenarioName) throws Exception {
-		System.out.println("Runnig Scenario : "+scenarioName);
-		HashMap<String,String> configSettings = ConfigPropertyReader.getSessionConfig();
-		DriverClass driverClass = new DriverClass();// main class for initliazing browser
-		threadLocal.set(driverClass.getBrowser(configSettings));
+		// ea driver din driverfactory
+		WebDriver webDriver = DriverFactory.getDriver(ConfigPropertyReader.getSessionConfig());
+		threadLocal.set(webDriver);
 	}
 
 	public static void closeDriver() {
-		if (getDriver() != null) {
+		if (threadLocal.get() != null) {
 			try {
-				getDriver().quit();
+				threadLocal.get().quit();
 			} catch (Exception e) {
 				e.printStackTrace();
 			}

@@ -3,58 +3,27 @@ package resourcereader;
 import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
-import java.util.Map.Entry;
 import java.util.Properties;
 
-
-// TODO: Auto-generated Javadoc
-
-/**
- * This is the utility class for data read write.
- * It reads config property file.
- * placed in project directory by default
- *
- */
 public final class ConfigPropertyReader {
 
-     /**
-	 *This varaible contains the name of default config property file.
-	 *
-	 */
-	private static String defaultConfigFile = System.getProperty("user.dir")+File.separator+"Config.properties";
-	/**
-	 * construtor of this class.
-	 * 
-	 */
-	
-	public static HashMap<String, String> configSettings;
+	private static String defaultConfigFile = System.getProperty("user.dir") + File.separator + "Config.properties";
 
-
-	/**
-	 * Get all property form config file.
-	 * @return map of all key value
-	 */
-	private static HashMap<String, String> readAllPropertyVlauesFromConfigFile() {
-		HashMap<String, String> mymap = new HashMap<String, String>();
-		Properties prop;
+	private static Properties getProps(){
 		try {
-			prop = ResourceLoader.loadProperties(defaultConfigFile);
-			for (final Entry<Object, Object> entry : prop.entrySet()) {
-				mymap.put((String) entry.getKey(), (String) entry.getValue());
-			}
-			return mymap;
+			return ResourceLoader.loadProperties(defaultConfigFile);
 		} catch (IOException e) {
-			return null;
+			return new Properties();
 		}
 	}
-	
-	/**
-	 * Method reads all the global property from the config file present in the project directory
-	 *
-	 * @return the hash map
-	 */
-	public static HashMap<String, String> getSessionConfig() {
-		configSettings = ConfigPropertyReader.readAllPropertyVlauesFromConfigFile();
-		return configSettings;
+
+	public static HashMap<String, String> getSessionConfig(){
+		HashMap<String, String> result = new HashMap<>();
+
+		for(var i : getProps().entrySet()){
+			result.put(i.getKey().toString(), i.getValue().toString());
+		}
+
+		return result;
 	}
 }

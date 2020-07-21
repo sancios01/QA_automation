@@ -2,23 +2,15 @@ package keywords;
 
 import pageobjects.HowToCommandPageLocators;
 
-// TODO: Auto-generated Javadoc
 
-/**
- * The Class ProductDescriptionPageKeywords.
- */
 public class HowToCommandPageKeywords extends BasePage {
 
-	/** The product description page locators. */
+
 	private HowToCommandPageLocators howToCommandPageLocators ;
 
-	/**
-	 * Instantiates a new product description page keywords.
-	 */
 	public HowToCommandPageKeywords() {
 		howToCommandPageLocators = new HowToCommandPageLocators();
 	}
-	
 
 	public void clickOnInfoButton() {
 		getElement(howToCommandPageLocators.btnInfo).click();
