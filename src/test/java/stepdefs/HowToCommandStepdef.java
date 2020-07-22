@@ -1,15 +1,15 @@
 package stepdefs;
 
-import browserfactory.DriverFactory;
 import browserfactory.DriverManager;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import keywords.HowToCommandPageActions;
+import keywords.HomePageKeywords;
 import logger.MainLogger;
 import org.junit.Assert;
-import resourcereader.ConfigPropertyReader;
+import resourcereader.YmlReader;
 
-import java.util.HashMap;
+
 
 public class HowToCommandStepdef {
 
@@ -22,8 +22,7 @@ public class HowToCommandStepdef {
     }
 
 	@When("User clicks on the howtoCommand? icon")
-	public void userClicksOnHowtoCommandIcon() {
-		howToCommandPageActions.clickOnInfoButton();
+	public void userClicksOnHowtoCommandIcon() { howToCommandPageActions.clickOnInfoButton();
 	}
 
 	@Then("User is redirected to the howtoCommand page")
@@ -49,12 +48,13 @@ public class HowToCommandStepdef {
 	@Then("on the top of Cum_comang page is displayed the button changing the language")
 	public void cumComandPageContainsChangingLanguageButtonOnTheTopOfPage() {
     	boolean TopLangBtn = howToCommandPageActions.getTopLanguageBtn();
+
     	if (TopLangBtn)
 		{MainLogger.log("Language button on the top of page is displayed", this.getClass());}
     	else
 		{MainLogger.log("Language button on the top of page is not displayed", this.getClass());}
 
-    	Assert.assertTrue(TopLangBtn == true);
+    	Assert.assertTrue(TopLangBtn);
 
 	}
 
@@ -66,7 +66,7 @@ public class HowToCommandStepdef {
 		else
 		{MainLogger.log("Language button on the bottom of page is not displayed", this.getClass());;}
 
-		Assert.assertTrue(BottomLangBtn == true);
+		Assert.assertTrue(BottomLangBtn);
 
 	}
 
@@ -92,17 +92,15 @@ public class HowToCommandStepdef {
 
 	@Then("User is redirected to the home page")
 	public void userIsRedirectedToTheHomePage() {
-		HashMap<String,String> configSettings = ConfigPropertyReader.getSessionConfig();
-		DriverFactory driverClass = new DriverFactory();
-
+		String url = YmlReader.getYmlValue("app_url", FILE_PATH).toString();
 		String currentUrl = DriverManager.getDriver().getCurrentUrl();
 
-		if (currentUrl.contains(driverClass.getUrl(configSettings)))
+		if (currentUrl.contains(url))
 			MainLogger.log("After click on homeIcon the user is redirected to landing page", this.getClass());
 		else
 			MainLogger.log("After click on homeIcon the user is not redirected to the landing page", this.getClass());
 
-		Assert.assertEquals(driverClass.getUrl(configSettings), currentUrl);
+		Assert.assertEquals(url, currentUrl);
 	}
 
 }

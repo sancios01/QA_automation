@@ -13,7 +13,9 @@ import org.junit.runner.RunWith;
         },
 		 features = {"src/test/resources/features"}, 
         glue = {"stepdefs"},
-        strict = true
+        strict = true,
+        tags={""},
+        stepNotifications = true
 )
 
 public class RunCucumberTest {

@@ -21,17 +21,10 @@ public class HomePageStepdef {
 
 
 	@Given("User launches the application url")
-	public void navigateToLoginPage() {
+	public void navigateToLandingPage() {
 		String url = YmlReader.getYmlValue("app_url", FILE_PATH).toString();
 		homePage.launchApplication(url);
 	}
-
-	@Given("User launches the fanatstic application url")
-	public void navigateToLoginPageFantastic() {
-		String url = YmlReader.getYmlValue("app_url2", FILE_PATH).toString();
-		homePage.launchApplication(url);
-	}
-
 
 
 	@When("Enters the search term {string} in search box")
@@ -59,14 +52,14 @@ public class HomePageStepdef {
 	public void facebook_link_should_be_displayed_footer() {
 		String fbUrl = homePage.getFaceBookContactLink();
 		MainLogger.log("Facebook Page URL is " + fbUrl, this.getClass());
-		Assert.assertTrue("Assertion Failed : Facebook link is nt there", fbUrl.contains("facebook"));
+		Assert.assertTrue( fbUrl.contains("facebook"));
 	}
 
 	@Then("twitter link should be displayed in footer")
 	public void twitter_link_should_be_displayed_in_footer() {
 		String twitterUrl = homePage.getTwitterContactLink();
 		MainLogger.log("Twitter Page URL is " + twitterUrl, this.getClass());
-		Assert.assertTrue("Assertion Failed : Facebook link is nt there", twitterUrl.contains("twitter"));
+		Assert.assertTrue( twitterUrl.contains("twitter"));
 	}
 
 	@When("user clicks on the shopping cart")
