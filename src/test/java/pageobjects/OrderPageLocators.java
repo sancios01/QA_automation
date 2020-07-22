@@ -1,8 +1,8 @@
-package pageObjects;
+package pageobjects;
 
 import org.openqa.selenium.By;
 
-public class OrderPage {
+public class OrderPageLocators {
 
 	/**
 	 * Search Box

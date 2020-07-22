@@ -1,19 +1,21 @@
-package stepDefs;
+package stepdefs;
 
-import browserFactory.DriverClass;
-import browserFactory.DriverManager;
+import browserfactory.DriverFactory;
+import browserfactory.DriverManager;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import actions.HowToCommandPageActions;
+import keywords.HowToCommandPageActions;
 import logger.MainLogger;
 import org.junit.Assert;
-import resourceReader.ConfigPropertyReader;
+import resourcereader.ConfigPropertyReader;
 
 import java.util.HashMap;
 
 public class HowToCommandStepdef {
 
 	private HowToCommandPageActions howToCommandPageActions;
+	
+	private final String FILE_PATH = "src/test/resources/testdata/testdata.yml";
 
     public HowToCommandStepdef() {
         this.howToCommandPageActions = new HowToCommandPageActions();
@@ -29,9 +31,9 @@ public class HowToCommandStepdef {
 		String currentUrl = DriverManager.getDriver().getCurrentUrl();
 
     	if (currentUrl.contains("zap.md/cum-comand"))
-		   MainLogger.logger().info("After click on \'cum comand\' the user is redirected to the info page");
+			MainLogger.log("After click on \'cum comand\' the user is redirected to the info page", this.getClass());
 		else
-			MainLogger.logger().error("After click on \'cum comand\' the user is not redirected to the info page");
+			MainLogger.log("After click on \'cum comand\' the user is not redirected to the info page", this.getClass());
 
 	    Assert.assertEquals("https://www.zap.md/cum-comand", currentUrl);
     }
@@ -40,7 +42,7 @@ public class HowToCommandStepdef {
 	public void headerOfDisplayedPageIsCumComand(String string) {
 		String pageHeader = howToCommandPageActions.getInfoPageHeader();
 		Assert.assertEquals(string, pageHeader);
-		MainLogger.logger().info("Correct header page is displayed: "+ string);
+		MainLogger.log("Correct header page is displayed: "+ string, this.getClass());
 	}
 
 
@@ -48,9 +50,9 @@ public class HowToCommandStepdef {
 	public void cumComandPageContainsChangingLanguageButtonOnTheTopOfPage() {
     	boolean TopLangBtn = howToCommandPageActions.getTopLanguageBtn();
     	if (TopLangBtn)
-		{MainLogger.logger().info("Language button on the top of page is displayed");}
+		{MainLogger.log("Language button on the top of page is displayed", this.getClass());}
     	else
-		{MainLogger.logger().error("Language button on the top of page is not displayed");}
+		{MainLogger.log("Language button on the top of page is not displayed", this.getClass());}
 
     	Assert.assertTrue(TopLangBtn == true);
 
@@ -60,9 +62,9 @@ public class HowToCommandStepdef {
 	public void cumComandPageContainsChangingLanguageButtonOnTheBottomOfPage() {
 		boolean BottomLangBtn = howToCommandPageActions.getBottomLanguageBtn();
 		if (BottomLangBtn)
-		{MainLogger.logger().info("Language button on the bottom of page is displayed");}
+		{MainLogger.log("Language button on the bottom of page is displayed", this.getClass());;}
 		else
-		{MainLogger.logger().error("Language button on the bottom of page is not displayed");}
+		{MainLogger.log("Language button on the bottom of page is not displayed", this.getClass());;}
 
 		Assert.assertTrue(BottomLangBtn == true);
 
@@ -71,34 +73,34 @@ public class HowToCommandStepdef {
 	@When("User clicks on changing language button from the top of page")
 	public void userClicksOnChangingLanguageButtonFromTheTopOfPage() {
 		howToCommandPageActions.clickOnTopLanguageBtn();
-		MainLogger.logger().info("By click on the changing language button on the top of page, the language was changed");
+		MainLogger.log("By click on the changing language button on the top of page, the language was changed", this.getClass());
 	}
 
 	@When("User clicks on changing language button from the bottom of page")
 	public void userClicksOnChangingLanguageButtonFromTheBottomOfPage() {
 		howToCommandPageActions.clickOnBottomLanguageBtn();
-		MainLogger.logger().info("By click on the changing language button on the bottom of page, the language was changed");
+		MainLogger.log("By click on the changing language button on the bottom of page, the language was changed", this.getClass());
 	}
 
 
 	@When("User clicks on home logo")
 	public void userClicksOnHomeLogo() {
 		howToCommandPageActions.clickOnHomeButtom();
-		MainLogger.logger().info("User clicks on home button");
+		MainLogger.log("User clicks on home button", this.getClass());
 	}
 
 
 	@Then("User is redirected to the home page")
 	public void userIsRedirectedToTheHomePage() {
 		HashMap<String,String> configSettings = ConfigPropertyReader.getSessionConfig();
-		DriverClass driverClass = new DriverClass();
+		DriverFactory driverClass = new DriverFactory();
 
 		String currentUrl = DriverManager.getDriver().getCurrentUrl();
 
 		if (currentUrl.contains(driverClass.getUrl(configSettings)))
-			MainLogger.logger().info("After click on homeIcon the user is redirected to landing page");
+			MainLogger.log("After click on homeIcon the user is redirected to landing page", this.getClass());
 		else
-			MainLogger.logger().error("After click on homeIcon the user is not redirected to the landing page");
+			MainLogger.log("After click on homeIcon the user is not redirected to the landing page", this.getClass());
 
 		Assert.assertEquals(driverClass.getUrl(configSettings), currentUrl);
 	}

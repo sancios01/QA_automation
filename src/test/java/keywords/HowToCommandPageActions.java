@@ -1,18 +1,15 @@
-package actions;
+package keywords;
 
-import pageObjects.HowToCommandPage;
 
+import pageobjects.HowToCommandPage;
 
 public class HowToCommandPageActions extends BasePage {
 
-	/** The product description page locators. */
 	private HowToCommandPage howToCommandPageLocators ;
-
 
 	public HowToCommandPageActions() {
 		howToCommandPageLocators = new HowToCommandPage();
 	}
-	
 
 	public void clickOnInfoButton() {
 		getElement(howToCommandPageLocators.btnInfo).click();
